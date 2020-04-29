@@ -10,7 +10,7 @@ A lot of ideas implemented here are taken from this paper. I have mentioned in t
 This paper proposes a novel method, HUSE, to learn cross-modal representation with semantic information. HUSE learns a shared latent space where the distance between any two universal embeddings is similar to the distance between their corresponding class embeddings in the semantic embedding space. HUSE also uses a classification objective with a shared classification layer to make sure that the image and text embeddings are in the same shared latent space.
 ![HUSE overview](https://github.com/1sh1vam/E-commerce-products-classification-using-images-and-text/blob/master/HUSE.png)
 
-Huse model is divided into three parts as you can see the image.
+As you can see the image HUSE model is divided into three parts.
 
 
 ### PART1: CREATING TEXT AND IMAGE EMBEDDINGS INPUTS:
@@ -22,3 +22,8 @@ The output from VGG16 is passed onto an Image Tower in parallel to output from t
 ### PART3: INCORPORATING THREE  LOSSES INTO THE ARCHITECTURE:
 The paper incorporates three losses, for Class Level Similarity, Semantic Similarity, Cross Modal Gap. All three losses are explained in detail in the paper.
 
+### Results:
+We have been able to achieve an accuracy of 97.3% on test dataset whereas we got an accuracy of 98% on train dataset.
+
+### Note:
+If you are getting any difficulties you can reach to me here at github or on linkedin(https://www.linkedin.com/in/1sh1vam/).
