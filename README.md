@@ -23,7 +23,7 @@ The output from VGG16 is passed onto an Image Tower in parallel to output from t
 The paper incorporates three losses, for Class Level Similarity, Semantic Similarity, Cross Modal Gap. All three losses are explained in detail in the paper.
 
 ### Results:
-We have been able to achieve an accuracy of 98% on test dataset whereas we got an accuracy of 98.57% on train dataset.
+We have been able to achieve an accuracy of 98.21% on test dataset whereas we got an accuracy of 98.69% on train dataset.
 
 ### Note:
 If you are getting any difficulties you can reach to me here at github or on linkedin(https://www.linkedin.com/in/1sh1vam/).
